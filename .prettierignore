@@ -1,0 +1,14 @@
+node_modules
+artifacts
+cache
+typechain-types
+coverage
+dist
+reference
+frontend/ties-design
+package-lock.json
+CLAUDE.md
+HANDOFF.md
+.claude
+experiments/results
+frontend/public/experiments

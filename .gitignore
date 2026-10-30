@@ -1,0 +1,28 @@
+# Owner inputs — never commit
+CLAUDE.md
+HANDOFF.md
+.claude/
+reference/
+frontend/ties-design/
+
+# Env / secrets
+.env*
+!.env.example
+services/.keys/
+
+# Build / tooling output
+node_modules/
+artifacts/
+cache/
+typechain-types/
+coverage/
+coverage.json
+dist/
+experiments/results/raw/
+*.log
+
+frontend/src/contracts/deployments/31337.json
+
+# End-to-end test output
+e2e-report/
+e2e-results/

@@ -1,0 +1,9 @@
+{
+  "name": "@ties/keeper",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node -r ts-node/register/transpile-only src/main.ts",
+    "build": "echo \"keeper: type-checked by the root typecheck script\""
+  }
+}
